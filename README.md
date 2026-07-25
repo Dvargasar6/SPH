@@ -4,14 +4,14 @@ A 2D fluid dynamics simulation of the classic **lid-driven cavity** problem, imp
 
 Neighbor search uses a **cell linked list**, reducing the cost from $O(N^2)$ to $O(N)$.
 
-📼 Result: [`sph_animation.mp4`](sph_animation.mp4)
+Result: [`sph_animation.mp4`](sph_animation.mp4)
 
 > Each section below is collapsed. Click a heading to expand it.
 
 ---
 
 <details open>
-<summary><b>🚀 Build and Run</b></summary>
+<summary><b>Build and Run</b></summary>
 
 <br>
 
@@ -65,7 +65,7 @@ Expected output: `max rel diff ≈ 1e-13`.
 ---
 
 <details>
-<summary><b>📐 Theoretical Background</b></summary>
+<summary><b>Theoretical Background</b></summary>
 
 <br>
 
@@ -266,7 +266,7 @@ The internal energy $u$ is drifted alongside the position using $du/dt$. The fix
 ---
 
 <details>
-<summary><b>🔍 The Cell-Linked-List Neighbor Search</b></summary>
+<summary><b>The Cell-Linked-List Neighbor Search</b></summary>
 
 <br>
 
@@ -316,7 +316,7 @@ The $10^{-13}$ agreement is floating-point summation order, not physics: a singl
 ---
 
 <details>
-<summary><b>🧩 Code Structure</b></summary>
+<summary><b>Code Structure</b></summary>
 
 <br>
 
@@ -384,7 +384,7 @@ Each particle caches its neighbor list **and** the kernel values evaluated for e
 ---
 
 <details>
-<summary><b>⚙️ Simulation Parameters</b></summary>
+<summary><b>Simulation Parameters</b></summary>
 
 <br>
 
@@ -410,7 +410,7 @@ Each particle caches its neighbor list **and** the kernel values evaluated for e
 ---
 
 <details>
-<summary><b>📄 Output Files</b></summary>
+<summary><b>Output Files</b></summary>
 
 <br>
 
@@ -429,7 +429,7 @@ The `state_XXXX` files are plain ASCII and can be animated directly with `gnuplo
 ---
 
 <details>
-<summary><b>🚧 Limitations and Possible Improvements</b></summary>
+<summary><b>Limitations and Possible Improvements</b></summary>
 
 <br>
 
@@ -444,7 +444,7 @@ The `state_XXXX` files are plain ASCII and can be animated directly with `gnuplo
 ---
 
 <details>
-<summary><b>📚 References</b></summary>
+<summary><b>References</b></summary>
 
 <br>
 
