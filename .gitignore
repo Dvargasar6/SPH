@@ -1,0 +1,11 @@
+# Ejecutables y objetos
+sph
+sph_bruteforce
+*.o
+*.exe
+*.out
+
+# Salidas generadas por la simulacion
+output/
+frames/
+*.output
